@@ -11,8 +11,7 @@ public class DPS : Roles
     }
 
     private void ATKBuff() {
-
-        Debug.Log($"Attack damage has been increase by 30%! {_dmg} >>> {(_def * (1 + .30))}");
+        Debug.Log($"Attack damage has been increase by 30%! {_dmg} >>> {(_dmg * (1 + .30))}");
     }
     
 }
